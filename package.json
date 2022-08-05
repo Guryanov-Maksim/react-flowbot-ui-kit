@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "private": true,
+  "main": "src/init.jsx",
   "scripts": {
     "test": "jest"
   },
