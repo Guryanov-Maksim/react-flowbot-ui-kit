@@ -4,7 +4,7 @@ install-deps:
 install: install-deps
 
 build:
-	npx webpack
+	NODE_ENV=production npx webpack --config webpack.prod.js
 
 start:
 	npx webpack serve
